@@ -1,5 +1,6 @@
 {
   "arrowParens": "always",
   "proseWrap": "always",
-  "printWidth": 500
+  "printWidth": 500,
+  "trailingComma": "all"
 }
