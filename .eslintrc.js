@@ -2,12 +2,12 @@ module.exports = {
   extends: "airbnb",
   parser: "babel-eslint",
   parserOptions: {
-    ecmaVersion: 2018
+    ecmaVersion: 2018,
   },
   env: {
     browser: true,
     node: true,
-    es6: true
+    es6: true,
   },
   rules: {
     quotes: 0,
@@ -18,6 +18,7 @@ module.exports = {
     "prefer-const": 0,
     "prefer-destructuring": 0,
     "prefer-template": 0,
-    "no-unused-expressions": 0
-  }
+    "no-unused-expressions": 0,
+    "no-underscore-dangle": 0,
+  },
 };
